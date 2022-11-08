@@ -255,7 +255,7 @@ section {
     opacity: 75%;
 }
 
-/* Calculator Image Styling */
+/* Challenge 1 Image Styling */
 .challenge-1 {
     background-image: url(../assets/images/bowtie-cat.png);
     background-size: cover;
@@ -268,14 +268,14 @@ section {
     position: relative; 
 }
 
-/* Calculator Hover Styling */
+/* Challenge 1 Hover Styling */
 .challenge-1:hover {
     opacity: 75%;
 }
 
-/* Pastel Puzzle Image Styling */
-.pastel-puzzles {
-    background-image: url(../images/peter-f-XURJBJi_wDE-unsplash.jpg);
+/* Rafting Image Styling */
+.rafting {
+    background-image: url(../assets/images/indian-creek.png);
     background-size: cover;
     width: 47.5%;
     height: 300px;
@@ -286,13 +286,13 @@ section {
 }
 
 /* Pastel Puzzle Hover Styling */
-.pastel-puzzles:hover {
+.rafting:hover {
     opacity: 75%;
 }
 
 /* Run Buddy Image Styling */
-.run-buddy {
-    background-image: url(../images/Screen\ Shot\ 2021-05-02\ at\ 5.19.30\ AM.png);
+.cooking {
+    background-image: url(../assets/images/ramen.jpg);
     background-size: cover;
     width: 47.5%;
     height: 300px;
@@ -303,7 +303,7 @@ section {
 }
 
 /* Run Buddy Hover Styling */
-.run-buddy:hover {
+.cooking:hover {
     opacity: 75%;
 }
 /* End of Main Sections Content Styling */
