@@ -1,0 +1,360 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/* End of Global Styling */
+  
+/* Start of Full Body Section Styling */
+body {
+    font-family: Arial;
+}
+/* End of Full Body Section Styling */
+  
+/* Start of Header Section Styling */
+header {
+    padding: 15px 30px;
+    background-color: #b3b289;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: sticky;
+    top: 0;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 80%;
+}
+  
+header h1 {
+    font-weight: bold;
+    margin: 0;
+    font-size: 36px;
+    color: #27040f;
+    text-shadow: none;
+}
+  
+header a {
+    padding: 15px 30px;
+    text-decoration: none;
+    color: #040827;
+}
+  
+header nav {
+    margin: 7px 0;
+}
+  
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+  
+header nav ul li a {
+    padding: 10px 15px;
+    font-weight: lighter;
+    font-size: 1.55vw;
+    text-shadow: none;
+}
+  
+header nav ul li a:hover {
+    color: darkred;
+    border-radius: 15px;
+    text-shadow: none;
+}  
+/* End of Header Section Styling */
+  
+/* Start of Footer Section Styling */
+footer {
+    background-image: url(../assets/images/background-image.webp);
+    padding: 40px 35px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+}
+  
+footer h2 {
+    color: #040827;
+    background-color: #b3b289;
+    font-size: 30px;
+    margin: 0;
+}
+/* End of Footer Section Styling */
+  
+/* Section Global Styling */
+section {
+    padding: 60px;
+}
+  
+/* Start of Hero Section Styling */
+.hero {
+    background-image: url(../assets/images/background-image.webp);
+    padding: 40px 35px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;  
+}
+
+.hero h2 {
+    padding: 10px 20px;
+    font-style: normal;
+    font-size: 30px;
+    color: #040827;
+    float: right;
+    background-color: #b3b289;
+}
+/* End of Hero Section Styling */
+    
+/* Start of Main Sections Content Styling */
+.section {
+    background-color: #964141;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* "About Me" and "Contact Me" Sections Titles' Styling */
+.section-title {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    font-size: 35px;
+    color: #040827;
+    margin: auto;
+    padding-right: 15px;
+    width: 10%;
+    text-align: end;
+    border-right: #040827 solid 3px;
+}
+
+/* "Work" Section Title's Styling */
+.section-title2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    font-size: 35px;
+    color: #040827;
+    margin: 0 auto 0 auto;
+    padding-right: 15px;
+    width: 10%;
+    text-align: end;
+    height: 1250px;
+}
+
+/* "About Me" and "Contact Me" Section Contents' Styling */
+.flex-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto 0 auto;
+    width: 80%;
+}
+
+/* "Work" Section Content Stlyling */
+.flex-row2 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto 0 auto;
+    width: 90%;
+    border-left: #040827 solid 3px;
+}
+
+/* Photo of Kelsey */
+.photo {
+    width: 10%;
+    height: auto;
+    padding-left: 1%;
+}
+
+/* Section Font and Anchor Elements Styling */
+.section p, .section a {
+    line-height: 1.5;
+    color: #040827;
+    width: 80%;
+    margin: 0 auto;
+    font-size: 30px;
+    text-align: center;
+    padding: 0 15px 0 15px;
+}
+
+/* "Work" Section Font Styling */
+.flex-row2 p {
+    display: inline-block;
+    text-align: start;
+    background-color: #b3b289;
+    opacity: 85%;
+    width: 45%;
+    position: absolute;
+    bottom: 10%;
+    left: 0%;
+}
+
+/* Main Project Section Styling */
+.main-project {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto 0 auto;
+    height: 650px;
+    width: 100%;
+}
+
+/* Others Projects Section Styling */
+.side-projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto 0 auto;
+    flex-direction: row;
+    width: 100%;
+}
+
+/* Main Project Image Styling */
+.main {
+    background-image: url(../assets/images/digital-marketing-meeting.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #777b97;
+    width: 100%;
+    height: 600px;
+    margin: 0 1% 2% 1%;
+    border: #040827 5px solid;
+    position: relative;
+}
+
+/* Main Project Hover Styling */
+.main:hover {
+    opacity: 75%;
+}
+
+/* Movies Image Styling */
+.movies {
+    background-image: url(../assets/images/feed-me.jpg);
+    background-size: cover;
+    width: 47.5%;
+    height: 300px;
+    margin-bottom: 2%;
+    margin-right: 0.5%;
+    border: #040827 5px solid;
+    position: relative;
+}
+
+/* Movies Hover Styling */
+.movies:hover {
+    opacity: 75%;
+}
+
+/* Calculator Image Styling */
+.challenge-1 {
+    background-image: url(../assets/images/bowtie-cat.png);
+    background-size: cover;
+    background-position: center;
+    width: 47.5%;
+    height: 300px;
+    margin-bottom: 2%;
+    margin-left: 0.5%;
+    border: #040827 5px solid;
+    position: relative; 
+}
+
+/* Calculator Hover Styling */
+.challenge-1:hover {
+    opacity: 75%;
+}
+
+/* Pastel Puzzle Image Styling */
+.pastel-puzzles {
+    background-image: url(../images/peter-f-XURJBJi_wDE-unsplash.jpg);
+    background-size: cover;
+    width: 47.5%;
+    height: 300px;
+    margin-bottom: 2%;
+    margin-right: 0.5%;
+    border: #040827 5px solid;
+    position: relative; 
+}
+
+/* Pastel Puzzle Hover Styling */
+.pastel-puzzles:hover {
+    opacity: 75%;
+}
+
+/* Run Buddy Image Styling */
+.run-buddy {
+    background-image: url(../images/Screen\ Shot\ 2021-05-02\ at\ 5.19.30\ AM.png);
+    background-size: cover;
+    width: 47.5%;
+    height: 300px;
+    margin-bottom: 2%;
+    margin-left: 0.5%;
+    border: #040827 5px solid;
+    position: relative; 
+}
+
+/* Run Buddy Hover Styling */
+.run-buddy:hover {
+    opacity: 75%;
+}
+/* End of Main Sections Content Styling */
+  
+/* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
+@media screen and (max-width: 980px) {
+    header {
+        padding-bottom: 0;
+        justify-content: center;
+        position: relative;
+    }
+    
+    header h1 {
+        width: 100%;
+        text-align: center;
+    }
+    
+    header nav ul {
+        margin-top: 20px;
+        width: 100%;
+        justify-content: center;
+    }
+    
+    header nav ul li a {
+        font-size: 20px;
+    }
+    
+    footer h2, footer div {
+        text-align: center;
+        width: 100%;
+    }
+
+    .section-title {
+        width: 20%;
+    }
+}
+  
+  /* MEDIA QUERY FOR TABLETS AND SMALLER */
+@media screen and (max-width: 768px) {
+    section {
+      padding: 30px 15px;
+    }
+}
+  
+/* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
+@media screen and (max-width: 575px) {
+    .section-title {
+      width: 95%;
+    }
+  
+    .section p {
+      width: 100%;
+    }
+}
