@@ -258,7 +258,7 @@ section {
 /* Challenge 1 Image Styling */
 .movieChallenge {
     background-image: url(../assets/images/blazing-saddles.png);
-    background-size: cover;
+    background-size: contain;
     background-position: center;
     width: 47.5%;
     height: 300px;
