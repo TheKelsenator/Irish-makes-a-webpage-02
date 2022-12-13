@@ -256,8 +256,8 @@ section {
 }
 
 /* Challenge 1 Image Styling */
-.challenge-1 {
-    background-image: url(../assets/images/bowtie-cat.png);
+.movieChallenge {
+    background-image: url(../assets/images/blazing-saddles.png);
     background-size: cover;
     background-position: center;
     width: 47.5%;
