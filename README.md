@@ -13,16 +13,16 @@
 ## Credits
 
 - Image: Background-image.webp
-- www.shutterstock.com - 1595688325
+www.shutterstock.com - 1595688325
 
 - Image: Bowtie-cat.png
-- U of U Bootcamp Pre-Work Module
+U of U Bootcamp Pre-Work Module
 
 - Image: Digital-marketing-meeting.jpg
-- U of U Bootcamp Module 2
+U of U Bootcamp Module 2
 
 - Image: Ramen.png
-- https://www.change.org/p/u-s-senate-ramen-noodle-should-not-be-so-expensive
+https://www.change.org/p/u-s-senate-ramen-noodle-should-not-be-so-expensive
 
 - All other images belong to me.
 
@@ -31,3 +31,5 @@
 ![alt text](./assets/images/Screenshot%20(8).png)
 
 ## Application Link
+
+https://thekelsenator.github.io/Irish-makes-a-webpage-02/
